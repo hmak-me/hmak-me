@@ -95,6 +95,7 @@
     },
     {
       "date": "Feb 2016 - Mar 2016",
+      "duration":"2 Months",
       "location": "Ravis | Isfahan, Iran",
       "jobTitle": "iOS Developer",
       "highlights": [
@@ -106,6 +107,7 @@
     },
     {
       "date": "Jan 2017 - May 2018",
+      "duration": "17 Months",
       "location": "Solar Sky | Iceland",
       "jobTitle": "Front-End Developer",
       "highlights": [
@@ -116,6 +118,7 @@
     },
     {
       "date": "Mar 2019 - May 2019",
+      "duration": "3 Months",
       "location": "Raadkish | Kish, Iran",
       "jobTitle": "Front-End Developer",
       "highlights": [
@@ -126,6 +129,7 @@
     },
     {
       "date": "Dec 2019 - Jul 2020",
+      "duration": "8 Months",
       "location": "Kish Airport | Kish, Iran",
       "jobTitle": "Full-Stack Developer",
       "highlights": [
@@ -137,6 +141,7 @@
     },
     {
       "date": "Jan 2020 - May 2020",
+      "duration": "5 Months",
       "location": "Hamresan | Tehran, Iran",
       "jobTitle": "Full-Stack Developer",
       "highlights": [
@@ -148,6 +153,7 @@
     },
     {
       "date": "May 2020 - Now",
+      "duration": "9 Months",
       "location": "Hamresan | Tehran, Iran",
       "jobTitle": "Team Lead & Full-Stack Developer",
       "highlights": [

@@ -94,6 +94,7 @@
     },
     {
       "date": "May 2017 - Dec 2017",
+      "duration": "8 Months",
       "location": "Royal Club | Isfahan, Iran",
       "jobTitle": "Back-End Developer",
       "highlights": [
@@ -105,6 +106,7 @@
     },
     {
       "date": "Dec 2017 - Aug 2018",
+      "duration": "8 Months",
       "location": "Kavoshak | Isfahan, Iran",
       "jobTitle": "Back-End Developer",
       "highlights": [
@@ -116,6 +118,7 @@
     },
     {
       "date": "Dec 2019 - Jul 2020",
+      "duration": "8 Months",
       "location": "Kish Airport | Kish, Iran",
       "jobTitle": "Full-Stack Developer",
       "highlights": [
@@ -127,6 +130,7 @@
     },
     {
       "date": "Jan 2020 - May 2020",
+      "duration": "5 Months",
       "location": "Hamresan | Tehran, Iran",
       "jobTitle": "Full-Stack Developer",
       "highlights": [
@@ -138,6 +142,7 @@
     },
     {
       "date": "May 2020 - Now",
+      "duration": "9 Months",
       "location": "Hamresan | Tehran, Iran",
       "jobTitle": "Team Lead & Full-Stack Developer",
       "highlights": [
