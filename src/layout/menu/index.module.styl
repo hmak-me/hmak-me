@@ -1,0 +1,16 @@
+.menu
+  position fixed
+  top 0
+  right 0
+  bottom 0
+  left 0
+  z-index: 0
+  background var(--gray2)
+  display: flex
+  justify-content: center
+  align-items: center
+  transform: translate3d(100%, 0, 0);
+  transition transform .2s ease-in-out;
+
+  &.open
+    transform: translate3d(0, 0, 0);

@@ -1,5 +1,6 @@
-@import "./resets.styl"
+@import "./variables.styl"
 @import "./typography.styl"
+@import "./resets.styl"
 
 html
   height 100%
@@ -8,3 +9,18 @@ body
   min-height 100%
   padding 0
   margin: 0
+  background: var(--gray1)
+  color: var(--gray12)
+  display: flex
+
+#___gatsby
+  display: flex
+  flex-grow: 1
+
+#gatsby-focus-wrapper
+  display: flex
+  flex-direction: column
+  flex-grow: 1
+
+  > main
+    flex-grow: 1
