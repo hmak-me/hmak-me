@@ -33,7 +33,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   result.data.allMdx.edges.forEach(({ node }) => {
     createPage({
-      path: node.frontmatter.slug,
+      path: `/blog/${node.frontmatter.slug}`,
       component: blogPostTemplate,
       context: {
         id: node.id,
