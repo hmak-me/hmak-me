@@ -1,2 +1,181 @@
-.title
-  color teal
+.cvPage
+  display: flex
+
+  .cv
+    display: grid
+    overflow: hidden
+    grid-template-areas 'header header'\
+    'aside main'
+    grid-template-rows auto 1fr
+    grid-template-columns 350px 1fr
+
+    > header
+      grid-area header
+
+    > main
+      grid-area main
+
+    > aside
+      grid-area aside
+      padding: 20px
+
+    section
+      position: relative
+
+      &:not(:first-child)
+        margin-top: 40px
+
+      header
+        display: flex
+        align-items: center
+        margin-bottom: 10px
+        height: 40px
+
+        h3
+          color var(--gray12)
+          text-transform uppercase
+          font-weight: 300
+          font-size: 1.5em
+
+        svg
+          width: 32px
+          margin-right: 20px
+
+
+    .header
+      display: flex
+      justify-content: space-between
+
+      .info
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        color var(--gray12)
+
+        .name
+          line-height: 1
+          font-size: 3.5em
+          font-weight: 300
+          display: flex
+          flex-direction: column
+          margin-left: 19px
+
+          .lastname
+            font-weight: 700
+
+        .jobTitle
+          padding: 8px 20px
+          background: var(--gray12)
+          color: var(--gray1)
+          margin-top: 10px
+          text-transform uppercase
+          letter-spacing 6px
+          font-size: .9em
+          font-weight: 500
+          line-height: 1
+          position: relative
+
+          &::before
+            content: ''
+            display: block
+            height: 1px
+            background: var(--gray12)
+            position: absolute
+            left: 100%
+            bottom: 0
+            width: 100vw
+
+
+      .contacts
+        display: flex
+        align-items: flex-end
+
+        .links
+          display: flex
+
+          .link
+            display: flex
+            align-items: center
+
+            a
+              padding: 5px 20px
+              text-decoration: none
+
+              &::before
+                content: attr(data-label) ':'
+                display: inline-block
+                width: 30px
+                text-align: right
+                margin-right: 5px
+                font-weight: 700
+                color: var(--gray12)
+
+    > main
+      display: flex
+      flex-direction: column
+      padding: 40px 20px
+
+      section
+        div
+          display: flex
+          flex-direction: column
+          padding-left: 52px
+          position: relative
+          padding-bottom: 40px
+
+          &::before
+            content: ''
+            display: block
+            width: 10px
+            height: 10px
+            border: 2px solid var(--primary-color)
+            border-radius 50%
+            position: absolute
+            top: 5px
+            left: 16px
+            transform translateX(-50%)
+
+          &::after
+            content: ''
+            display: block
+            width: 2px
+            background: var(--gray6)
+            border-radius 1px
+            position: absolute
+            top: 27px
+            left: 16px
+            margin-left: -1px
+            bottom: 3px
+
+        &:last-child div:last-child::after
+          display: none
+
+        .date, .info
+          text-transform uppercase
+          letter-spacing 1px
+          font-size: 1.1em
+          color: var(--gray10)
+
+        p
+          margin-top: 5px
+
+    > aside
+      display: flex
+      flex-direction: column
+      padding: 40px 20px
+
+      .socials
+        .links
+          .link
+            a
+              margin-left: -10px
+              padding: 5px 10px
+              display: flex
+              align-items: center
+              text-decoration none
+
+              svg
+                width: 18px
+                height: 18px
+                margin-right: 10px
+                fill: var(--gray-12)
