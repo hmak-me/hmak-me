@@ -7,7 +7,6 @@ import TwitterIcon from "../../assets/icons/twitter"
 import LinkedInIcon from "../../assets/icons/linkedin"
 import BookIcon from "../../assets/icons/book"
 import BriefcaseIcon from "../../assets/icons/briefcase"
-import TrophyIcon from "../../assets/icons/trophy"
 
 
 const CVPage = () => {
@@ -22,7 +21,7 @@ const CVPage = () => {
               <span className={styles.firstname}>Hossein</span>
               <span className={styles.lastname}>Maktoobian</span>
             </div>
-            <div className={styles.jobTitle}>Web Developer</div>
+            <div className={styles.jobTitle}>Full Stack Web Developer</div>
           </section>
 
           <section className={styles.contacts}>
@@ -47,7 +46,27 @@ const CVPage = () => {
               <h3>Profile</h3>
             </header>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur blanditiis consectetur distinctio fuga ipsa, labore laborum numquam perferendis, placeat quia reiciendis rem voluptatum. Alias commodi deserunt, dolor eligendi fugit, laborum laudantium officiis optio quas quos reprehenderit similique ut velit, voluptas!</p>
+            <p>Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, that was the
+            beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment. I've coded
+            in various programming languages but recently chose JS as my speaking language.</p>
+          </section>
+
+          <section className={styles.awards}>
+            <header>
+              <h3>Awards</h3>
+            </header>
+
+            <div>
+              <span className={styles.date}>Jul 28, 2018</span>
+              <span className={styles.info}>18th Iran National Skills</span>
+              <span className={styles.award}>Gold Medal</span>
+            </div>
+
+            <div>
+              <span className={styles.date}>Aug 27, 2019</span>
+              <span className={styles.info}>45th WorldSkills Competition</span>
+              <span className={styles.award}>Medallion Of Excellence</span>
+            </div>
           </section>
 
           <section className={styles.socials}>
@@ -86,15 +105,13 @@ const CVPage = () => {
             </header>
 
             <div>
-              <span className={styles.date}>Sep 3, 2020 - Aug 15, 2022</span>
+              <span className={styles.date}>Sep 23, 2015 - Jan 20, 2018</span>
               <span className={styles.info}>Somewhere | Something</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dolore dolorem expedita id iste quasi, quidem sapiente sed vitae? Aliquid dolores ex excepturi explicabo quibusdam. Corporis deleniti dignissimos dolores eligendi expedita, inventore laboriosam minus natus officiis omnis pariatur perferendis provident quaerat quod suscipit, tenetur voluptatem! Deleniti dicta error esse quia.</p>
             </div>
 
             <div>
-              <span className={styles.date}>Sep 3, 2020 - Aug 15, 2022</span>
+              <span className={styles.date}>Sep 23, 2019 - Now</span>
               <span className={styles.info}>Somewhere | Something</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad cum, dolore ducimus est et incidunt mollitia quasi repellat similique voluptates. Commodi deserunt doloribus harum impedit laboriosam magnam minima nihil odio possimus, rem, sed vitae. Error officia quibusdam tempora temporibus veritatis.</p>
             </div>
           </section>
 
@@ -120,25 +137,6 @@ const CVPage = () => {
               <span className={styles.date}>Sep 3, 2020 - Aug 15, 2022</span>
               <span className={styles.info}>Somewhere | Something</span>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem delectus inventore laborum nisi quae quod recusandae reiciendis totam vitae. Autem cupiditate explicabo fuga iste mollitia optio quidem sit tenetur totam vel. Accusamus ad animi, assumenda autem debitis delectus et explicabo ipsum labore quia quod reiciendis rerum similique temporibus ullam.</p>
-            </div>
-          </section>
-
-          <section className={styles.awards}>
-            <header>
-              <TrophyIcon />
-              <h3>Awards</h3>
-            </header>
-
-            <div>
-              <span className={styles.date}>Sep 3, 2020 - Aug 15, 2022</span>
-              <span className={styles.info}>Somewhere | Something</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquam at aut cumque cupiditate doloremque earum eum, exercitationem expedita facilis fuga, hic in ipsa iste laborum maxime mollitia natus nostrum nulla officiis pariatur placeat provident quaerat quo rerum soluta vero vitae. Ad architecto blanditiis cum deleniti eaque, excepturi illum inventore ipsam itaque, magnam maxime perferendis perspiciatis, quas quasi quis vitae?</p>
-            </div>
-
-            <div>
-              <span className={styles.date}>Aug 15, 2022</span>
-              <span className={styles.info}>Somewhere | Something</span>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur delectus dicta distinctio esse harum ipsum itaque, iure modi nesciunt nostrum officia praesentium quasi qui quibusdam quis quo ratione recusandae rem reprehenderit rerum saepe sed sint tempore unde velit veniam vero! Consequatur cum, deleniti facilis fuga hic molestiae mollitia necessitatibus nemo pariatur soluta. Eveniet, natus, sapiente. Adipisci assumenda autem cumque et iusto odio quia recusandae voluptas voluptatibus? Laborum, optio, vel.</p>
             </div>
           </section>
         </main>
