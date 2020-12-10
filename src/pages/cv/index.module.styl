@@ -25,6 +25,9 @@
       &:not(:first-child)
         margin-top: 40px
 
+      > *:not(header)
+        padding-left: 52px
+
       header
         display: flex
         align-items: center
@@ -34,11 +37,12 @@
         h3
           color var(--gray12)
           text-transform uppercase
-          font-weight: 300
-          font-size: 1.5em
+          font-weight: 700
+          font-size: 2em
 
         svg
           width: 32px
+          height: 32px
           margin-right: 20px
 
 
@@ -85,16 +89,16 @@
             bottom: 0
             width: 100vw
 
+
     > main
       display: flex
       flex-direction: column
       padding: 40px 20px
 
-      section
-        div
+      .work
+        > div
           display: flex
           flex-direction: column
-          padding-left: 52px
           position: relative
           padding-bottom: 40px
 
@@ -106,7 +110,7 @@
             border: 2px solid var(--primary-color)
             border-radius 50%
             position: absolute
-            top: 5px
+            top: 4px
             left: 16px
             transform translateX(-50%)
 
@@ -114,25 +118,35 @@
             content: ''
             display: block
             width: 2px
-            background: var(--gray6)
+            background: var(--gray5)
             border-radius 1px
             position: absolute
-            top: 27px
+            top: 26px
             left: 16px
             margin-left: -1px
-            bottom: 3px
+            bottom: 4px
 
         &:last-child div:last-child::after
           display: none
 
-        .date, .info
+        .date
           text-transform uppercase
           letter-spacing 1px
-          font-size: 1.1em
-          color: var(--gray10)
+          font-size: .9em
+          color: var(--gray6)
 
-        p
+        .company
+          font-size: 1em
+          line-height: 1
+          color: var(--gray8)
+
+        .jobTitle
+          font-size: 1.4em
+          font-weight: 500
+
+        .description
           margin-top: 5px
+
 
     > aside
       display: flex

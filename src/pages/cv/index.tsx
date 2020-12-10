@@ -83,34 +83,6 @@ const CVPage = () => {
             </div>
           </section>
 
-          <section className={styles.socials}>
-            <header>
-              <ShareIcon />
-              <h3>Socials</h3>
-            </header>
-
-            <ul className={styles.links}>
-              <li className={styles.link}>
-                <a href='https://gihub.com/hmak-me'>
-                  <GitHubIcon />
-                  <span>@hmak-me</span>
-                </a>
-              </li>
-              <li className={styles.link}>
-                <a href='https://linkedin.com/in/hmak-me'>
-                  <LinkedInIcon />
-                  <span>@hmak-me</span>
-                </a>
-              </li>
-              <li className={styles.link}>
-                <a href='https://twitter.com/hmakme'>
-                  <TwitterIcon />
-                  <span>@hmakme</span>
-                </a>
-              </li>
-            </ul>
-          </section>
-
           <section className={styles.contacts}>
             <header>
               <ContactIcon />
@@ -138,6 +110,34 @@ const CVPage = () => {
               </li>
             </ul>
           </section>
+
+          <section className={styles.socials}>
+            <header>
+              <ShareIcon />
+              <h3>Socials</h3>
+            </header>
+
+            <ul className={styles.links}>
+              <li className={styles.link}>
+                <a href='https://gihub.com/hmak-me'>
+                  <GitHubIcon />
+                  <span>@hmak-me</span>
+                </a>
+              </li>
+              <li className={styles.link}>
+                <a href='https://linkedin.com/in/hmak-me'>
+                  <LinkedInIcon />
+                  <span>@hmak-me</span>
+                </a>
+              </li>
+              <li className={styles.link}>
+                <a href='https://twitter.com/hmakme'>
+                  <TwitterIcon />
+                  <span>@hmakme</span>
+                </a>
+              </li>
+            </ul>
+          </section>
         </aside>
 
         <main>
@@ -149,6 +149,7 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>2014 - Now</span>
+              <span className={styles.company}>Isfahan, Iran</span>
               <span className={styles.jobTitle}>Freelance Developer</span>
               <p className={styles.description}>I've been a freelance developer since 2014. Created an online shopping website
                 using pure <b>PHP</b>, <b>HTML</b> and <b>CSS</b> as my first project. Then I registered in a freelancing
@@ -158,8 +159,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>Feb 2016 - Mar 2016</span>
-              <span className={styles.jobTitle}>iOS Developer</span>
               <span className={styles.company}>Ravis | Isfahan, Iran</span>
+              <span className={styles.jobTitle}>iOS Developer</span>
               <p className={styles.description}>Ravis is a flight ticket reseller which was providing a platform to sell
                 charter flight tickets online. They had a fully functional website and I've joined their team to develop
                 an iOS application with <b>Swift</b> to communicate with their APIs and provide the same functionality to
@@ -168,8 +169,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>2016 - 2017</span>
-              <span className={styles.jobTitle}>Front-end Developer</span>
               <span className={styles.company}>Solar Sky | Iceland</span>
+              <span className={styles.jobTitle}>Front-end Developer</span>
               <p className={styles.description}>I was working with a team of <b>.NET</b> developers which was working remotely
                 with Solar Sky which was a cleaning services company. We were working on their internal management panel to
                 make managing their employees and clients easier. It was built on a <b>C#</b> and <b>.NET</b> base and I
@@ -178,8 +179,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>Jul 2017 - Dec 2017</span>
-              <span className={styles.jobTitle}>Founder & CTO</span>
               <span className={styles.company}>Royal Club | Isfahan, Iran</span>
+              <span className={styles.jobTitle}>Founder & CTO</span>
               <p className={styles.description}>I've gathered a team and planned to create a mobile cards game with unity.
                 As it was my first experience of starting a team and managing the project, the project failed after 6 months.
                 I've learned a lot about our mistakes that caused the project to fail. I was developing the server side application
@@ -189,8 +190,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>Jan 2018 - Aug 2018</span>
-              <span className={styles.jobTitle}>Co-Founder & CTO</span>
               <span className={styles.company}>Kavoshak | Isfahan, Iran</span>
+              <span className={styles.jobTitle}>Co-Founder & CTO</span>
               <p className={styles.description}>Just right after failing my last project, I joined another team of my friends
                 to work in their startup project which was a price comparison website that crawls online shops and gathers
                 prices of various products and shows them to the user. It was meant to trace product prices in online shops and
@@ -201,8 +202,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>Mar 2019 - May 2019</span>
-              <span className={styles.jobTitle}>Front-end Developer</span>
               <span className={styles.company}>Raadkish | Kish, Iran</span>
+              <span className={styles.jobTitle}>Front-end Developer</span>
               <p className={styles.description}>During my training for WorldSkills 2019 competition, I've joined Raadkish
                 as a front-end developer to improve my skills there. They were working on startup projects mostly in fintech
                 and tourist services. I've learned to code in <b>React</b> to develop the front-end parts of the websites.
@@ -214,8 +215,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>Dec 2019 - Jul 2020</span>
-              <span className={styles.jobTitle}>Full-stack Developer</span>
               <span className={styles.company}>Kish Airport | Kish, Iran</span>
+              <span className={styles.jobTitle}>Full-stack Developer</span>
               <p className={styles.description}>A company named <i>Aratek</i> which is working with the <i>Kish International Airport</i>,
                 outsourced their <b>Load & Balance</b> project as a freelance project to me. Load and balance is consisted of some procedures to find
                 the center of gravity of an airplane to use it for taking-off and landing. They were calculating the CG manually on
@@ -229,8 +230,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>Jan 2020 - May 2020</span>
-              <span className={styles.jobTitle}>Full-stack Developer</span>
               <span className={styles.company}>Hamresan | Tehran, Iran</span>
+              <span className={styles.jobTitle}>Full-stack Developer</span>
               <p className={styles.description}>I joined as the first developer to the <i>Hamresan</i> company as a full-stack
                 developer. We started a PWA application for the <i>Kish Ports organization</i>. The application was meant to show
                 the flight and cruises planning to the user, and let them get their flight boarding pass with their phones. It also
@@ -242,8 +243,8 @@ const CVPage = () => {
 
             <div>
               <span className={styles.date}>May 2020 - Now</span>
-              <span className={styles.jobTitle}>Project Manager & Team Lead</span>
               <span className={styles.company}>Hamresan | Tehran, Iran</span>
+              <span className={styles.jobTitle}>Project Manager & Team Lead</span>
               <p className={styles.description}>After the company decided to recruit more developers, I've worked as the project
                 manager and the team lead, since I had experience of running my own teams, read about <b>Scrum</b> and project
                 managing techniques and guided the team to build the applications in the right structure. We have created several
