@@ -204,12 +204,11 @@ const CVPage = () => {
               <span className={styles.date}>Mar 2019 - May 2019</span>
               <span className={styles.company}>Raadkish | Kish, Iran</span>
               <span className={styles.jobTitle}>Front-end Developer</span>
-              <p className={styles.description}>During my training for WorldSkills 2019 competition, I've joined Raadkish
-                as a front-end developer to improve my skills there. They were working on startup projects mostly in fintech
-                and tourist services. I've learned to code in <b>React</b> to develop the front-end parts of the websites.
-                I've also worked on a part of <b>React Native</b> mobile application which was needed in tourist guide
-                application. Working along with <i>Hadi Mostafapour</i> took me to another level of web development. It was a great
-                experience to see how things can be done better and faster, and learn best practices and new tools and technologies
+              <p className={styles.description}>During my training for WorldSkills 2019 competition, I've joined <i>Raadkish</i>
+                as a front-end developer to improve my skills there. They were working on startup fintech and tourist services.
+                I've learned to code in <b>React</b> and <b>React Native</b> to develop the front-end parts of their websites
+                and applications. Working along with <i>Hadi Mostafapour</i> took me to another level of web development. It was a great
+                experience to see how things can be done better and faster, and learn best practices and new technologies
                 in web development.</p>
             </div>
 
@@ -217,15 +216,12 @@ const CVPage = () => {
               <span className={styles.date}>Dec 2019 - Jul 2020</span>
               <span className={styles.company}>Kish Airport | Kish, Iran</span>
               <span className={styles.jobTitle}>Full-stack Developer</span>
-              <p className={styles.description}>A company named <i>Aratek</i> which is working with the <i>Kish International Airport</i>,
-                outsourced their <b>Load & Balance</b> project as a freelance project to me. Load and balance is consisted of some procedures to find
-                the center of gravity of an airplane to use it for taking-off and landing. They were calculating the CG manually on
-                papers, and I created a website on their local network to do this automatically. It is created with <b>Laravel</b>
-                and <b>React</b>. The main challenge of this project was its precision in calculations. I had to learn everything
-                about it, to be able to turn it into an application. Another challenging part of this project was its' data entry
-                forms, there was a lot of nested and related data entry forms which was addressed by creating a form scaffold structure,
-                to create all those forms automatically based on the database data structure. I also had to work with the DCS APIs
-                to get flights and passengers data.</p>
+              <p className={styles.description}>Load and balance has some procedures to find the center of gravity of an
+                airplane to use it for taking-off and landing. They were calculating the CG manually on papers, and my
+                job was to created a website to do this automatically. It was created with <b>Laravel</b> and <b>React</b>.
+                A challenging part of this project was its' data entry forms, since there was a ton of nested and related forms
+                which was addressed by creating a form scaffolding structure, to create all those forms based on their database
+                structure. I also had to work with the Airport DCS APIs to get flights and passengers data.</p>
             </div>
 
             <div>
@@ -233,12 +229,9 @@ const CVPage = () => {
               <span className={styles.company}>Hamresan | Tehran, Iran</span>
               <span className={styles.jobTitle}>Full-stack Developer</span>
               <p className={styles.description}>I joined as the first developer to the <i>Hamresan</i> company as a full-stack
-                developer. We started a PWA application for the <i>Kish Ports organization</i>. The application was meant to show
-                the flight and cruises planning to the user, and let them get their flight boarding pass with their phones. It also
-                had a feature to reserve and buy cruise tickets. This project was built with <b>Node.js</b> and <b>React</b> and
-                used <b>GraphQL</b> for the communication between the client and the server. It also had a real-time communication
-                with the server to get live information about flights and cruises. There was some challenging interface
-                implementations which was fully customized with the latest UI design techniques.</p>
+                developer. We started a PWA application to provide live flight and cruises schedule, and let users get their
+                flight boarding pass or reserve and buy cruise tickets on their phones. This project was built with <b>Node.js</b>
+                and <b>React</b> and used <b>GraphQL</b> and <b>Socket.io</b> for the communication between the client and the server.</p>
             </div>
 
             <div>
@@ -246,12 +239,10 @@ const CVPage = () => {
               <span className={styles.company}>Hamresan | Tehran, Iran</span>
               <span className={styles.jobTitle}>Project Manager & Team Lead</span>
               <p className={styles.description}>After the company decided to recruit more developers, I've worked as the project
-                manager and the team lead, since I had experience of running my own teams, read about <b>Scrum</b> and project
-                managing techniques and guided the team to build the applications in the right structure. We have created several
-                web applications since then. A PWA Audio Book and Podcast platform, a couple of medical event websites and an
-                online learning platform. Meanwhile, I also worked as a Back-end developer and was implementing a Node.js and React
-                framework with <b>Typescript</b> which boosts bootstrapping our projects since we start new projects with the same
-                stack.</p>
+                manager and the team lead, learned to be a <b>Scrum</b> master and manage a project. We have created several
+                web applications since then. A PWA Podcast app, a couple of medical websites and an online learning platform.
+                Meanwhile, I was working as a Back-end developer and implemented a Node.js framework with <b>Typescript</b> which
+                boosts bootstrapping our projects.</p>
             </div>
           </section>
         </main>
