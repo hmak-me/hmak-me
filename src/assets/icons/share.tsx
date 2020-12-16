@@ -1,6 +1,6 @@
 import React from "react"
 
-const ShareIcon = ({ className }) => {
+const ShareIcon = ({ className }: { className?: string }) => {
   return (
     <svg className={className} role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
       <path fill='currentColor'
