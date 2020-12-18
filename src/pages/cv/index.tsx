@@ -1,3 +1,4 @@
+import React from "react"
 import SEO from "../../components/seo"
 import GitHubIcon from "../../assets/icons/github"
 import TwitterIcon from "../../assets/icons/twitter"
