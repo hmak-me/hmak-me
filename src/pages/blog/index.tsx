@@ -1,15 +1,14 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Layout from "../../layout"
 import SEO from "../../components/seo"
 
 const BlogPage = ({ data: { allMdx: { edges } } }) => (
-  <Layout>
+  <main>
     <SEO title="Blog" />
       {edges.map(({ node }) => (
         <Link to={`/blog/${node.meta.slug}`} key={node.id}>{node.meta.title}</Link>
       ))}
-  </Layout>
+  </main>
 )
 
 export const pageQuery = graphql`

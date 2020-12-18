@@ -1,5 +1,3 @@
-import React from "react"
-import Layout from "../../layout"
 import SEO from "../../components/seo"
 import GitHubIcon from "../../assets/icons/github"
 import TwitterIcon from "../../assets/icons/twitter"
@@ -18,7 +16,7 @@ import styles from "./index.module.styl"
 
 const CVPage = () => {
   return (
-    <Layout className={styles.cvPage}>
+    <main className={styles.cvPage}>
       <SEO title="CV" />
 
       <div className={`container ${styles.cv}`}>
@@ -224,7 +222,7 @@ const CVPage = () => {
           </section>
         </main>
       </div>
-    </Layout>
+    </main>
   )
 }
 

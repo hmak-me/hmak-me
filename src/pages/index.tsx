@@ -1,12 +1,11 @@
 import React from "react"
-import Layout from "../layout"
 import SEO from "../components/seo"
 import styles from "./index.module.styl"
 import Button from "../components/button"
 import { Link } from "gatsby"
 
 const HomePage = () => (
-  <Layout className={styles.homePage}>
+  <main className={styles.homePage}>
     <SEO title="Home" />
 
     <div className="container">
@@ -29,7 +28,7 @@ const HomePage = () => (
         </ul>
       </aside>
     </div>
-  </Layout>
+  </main>
 )
 
 export default HomePage

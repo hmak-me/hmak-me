@@ -5,6 +5,12 @@ module.exports = {
     author: `@hmak-me`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve('./src/layout/index.tsx'),
+      },
+    },
     `gatsby-plugin-stylus`,
     `gatsby-plugin-react-helmet`,
     {
