@@ -7,10 +7,47 @@
   z-index: 0
   background var(--gray2)
   display: flex
-  justify-content: center
   align-items: center
   transform: translate3d(100%, 0, 0);
   transition transform .3s ease-in-out;
 
   &.open
     transform: translate3d(0, 0, 0);
+
+  nav
+    font-size: 3em
+    font-weight: 300
+    margin-left: -20px
+
+    ul
+      li
+        a
+          text-decoration none
+          padding: 20px 20px
+          position: relative
+          color: var(--gray6)
+          transition color .3s ease-in-out
+
+          &.active
+            color: var(--gray12)
+
+            &::before
+              background: var(--primary-color)
+
+          &:not(.active):hover
+            color: var(--gray10)
+
+            &::before
+              background: var(--gray6)
+
+          &::before
+            content: ''
+            display: block
+            position: absolute
+            top: 50%
+            right: 100%
+            transform translateY(-50%)
+            height: 30px
+            width: 3px
+            background: var(--gray4)
+            transition background .3s ease-in-out

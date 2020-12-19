@@ -7,9 +7,9 @@ import styles from "./index.module.styl";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const handleToggleMenu = (e) => {
-    setMenuOpen(!menuOpen);
-    document.documentElement.style.overflow = menuOpen ? null : 'hidden';
+  const handleToggleMenu = (state) => {
+    setMenuOpen(state);
+    document.documentElement.style.overflow = !state ? null : 'hidden';
   };
 
   return (
@@ -21,11 +21,11 @@ const Header = () => {
 
         <button
           className={`${styles.burger} ${menuOpen ? styles.open : ''}`}
-          onClick={handleToggleMenu}
+          onClick={() => handleToggleMenu(!menuOpen)}
         />
       </div>
 
-      <Menu isOpen={menuOpen} />
+      <Menu isOpen={menuOpen} setOpen={handleToggleMenu} />
     </header>
   );
 }
