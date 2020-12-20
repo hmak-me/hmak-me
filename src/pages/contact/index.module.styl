@@ -1,2 +1,80 @@
-.title
-  color teal
+.contactPage
+  .worldMap
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: -1
+    overflow: hidden
+
+    svg
+      position: absolute
+      height: 3500px
+      top: 50%
+      left: 50%
+      transform translate(-57%, -37%)
+
+    path:first-child
+      fill: var(--gray2)
+
+    path:last-child
+      fill: var(--primary-color)
+
+  :global(.container)
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    justify-content: center
+    grid-gap 30px
+    padding-top: 100px
+
+  section
+    display: flex
+    flex-direction: column
+    padding: 40px 70px
+    margin-top: 2em
+    border-radius 20px
+    border: 1px solid rgba(white, 0.1)
+    background var(--gray3)
+    font-size: 1.2em
+    font-weight: 300
+    position: relative
+    min-width 320px
+
+    h2
+      font-size: 3em
+      line-height: 1
+      white-space nowrap
+      position: absolute
+      top: 0
+      left: 30px
+      transform translateY(-.66em)
+
+  .contacts
+    .link
+      display: flex
+      align-items: center
+      padding: 8px 0
+      text-decoration none
+
+      svg
+        width: 24px
+        height: 24px
+        margin-right: 10px
+
+  .socials
+    .links
+      display: flex
+      justify-content: space-between
+
+      .link
+        svg
+          width: 48px
+          height: 48px
+
+@supports ((backdrop-filter: blur(50px)))
+  .contactPage
+    section
+      background: none
+      backdrop-filter blur(20px) brightness(1.5)

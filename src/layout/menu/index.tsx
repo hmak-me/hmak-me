@@ -47,7 +47,7 @@ const Menu = ({ isOpen = false, setOpen }: { isOpen: boolean, setOpen: Function 
 
       <ul className={styles.socials}>
         <li className={styles.social}><a href="https://github.com/hmak-me">GitHub</a></li>
-        <li className={styles.social}><a href="https://linkedin.com/in/hmak-me/">LinkedIn</a></li>
+        <li className={styles.social}><a href="https://linkedin.com/in/hmak-me">LinkedIn</a></li>
         <li className={styles.social}><a href="https://twitter.com/hmakme">Twitter</a></li>
         <li className={styles.social}><a href="https://instagram.com/hmak.me">Instagram</a></li>
       </ul>
