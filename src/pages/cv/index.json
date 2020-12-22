@@ -99,18 +99,21 @@
       "jobTitle": "Full-stack Developer",
       "description": "I joined as the first developer to the Hamresan company as a full-stack developer. We started a PWA application to provide live flight and cruises schedule, and let users get their flight boarding pass or reserve and buy cruise tickets on their phones. This project was built with Node.js and React and used GraphQL and Socket.io for the communication between the client and the server.",
       "highlights": [
-        "",
-        ""
+        "Implement Real-Time using Socket.io",
+        "Implement Web Hooks to be called by external data sources",
+        "Integrate GraphQL data with incoming Socket data",
+        "Create platform-specific user interfaces"
       ]
     },
     {
       "date": "May 2020 - Now",
       "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Project Manager & Team Lead",
+      "jobTitle": "Team Lead & Back-end Developer",
       "description": "After the company decided to recruit more developers, I've worked as the project manager and the team lead, learned to be a Scrum master and manage a project. We have created several web applications since then. A PWA Podcast app, a couple of medical websites and an online learning platform. Meanwhile, I was working as a Back-end developer and implemented a Node.js framework with Typescript which boosts bootstrapping our projects.",
       "highlights": [
-        "",
-        ""
+        "Create a Node.js back-end framework with Typescript",
+        "Improve GraphQL and Database performance",
+        "Generate multiple video qualities using FFMPEG"
       ]
     }
   ]
