@@ -178,7 +178,7 @@ const CVPage = () => {
                   {xp.date && <h5>{xp.date}</h5>}
                   {xp.location && <h4>{xp.location}</h4>}
                   {xp.jobTitle && <h3>{xp.jobTitle}</h3>}
-                  {xp.description && <p>{xp.description}</p>}
+                  {/*{xp.description && <p>{xp.description}</p>}*/}
                   {xp.highlights?.length > 0 && (
                     <ul>
                       {xp.highlights.map((highlight) => (
