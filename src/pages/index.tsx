@@ -87,7 +87,7 @@ const HomePage = () => {
     draw()
   }
 
-  const handleWindowResize = () => {
+  const handleWindowResize = (e, shouldDraw: boolean = true) => {
     if (window.innerWidth > 600) {
       canvas.height = window.innerHeight - 118
       canvas.width = canvas.height / 1.2202097235
@@ -96,7 +96,9 @@ const HomePage = () => {
       canvas.height = canvas.width * 1.2202097235
     }
 
-    draw()
+    if (shouldDraw) {
+      draw()
+    }
   }
 
   const handleKeyPress = (e) => {
@@ -112,9 +114,6 @@ const HomePage = () => {
   }
 
   const initializeCanvas = () => {
-    canvas = canvasRef.current
-    cursor = cursorRef.current
-
     ctx = canvas.getContext('2d')
 
     drawingCanvas = document.createElement('canvas')
@@ -135,12 +134,17 @@ const HomePage = () => {
     drawingCtx.lineTo(image.width, image.height * 0.75)
     drawingCtx.stroke()
 
-    handleWindowResize()
-
     cursor.style.width = cursor.style.height = `${size * (canvas.width / image.width) * 2}px`
+
+    draw()
   }
 
   useEffect(() => {
+    canvas = canvasRef.current
+    cursor = cursorRef.current
+
+    handleWindowResize(null, false)
+
     image = new Image()
     image.src = me
     image.onload = () => {
