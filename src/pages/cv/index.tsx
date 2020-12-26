@@ -48,9 +48,7 @@ const CVPage = () => {
                 <h2>Profile</h2>
               </header>
 
-              <p>Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the
-                beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment. I've coded
-                in various programming languages but recently chose JS as my speaking language.</p>
+              <p>{data.profile}</p>
             </section>
           )}
 
@@ -61,8 +59,8 @@ const CVPage = () => {
                 <h2>Education</h2>
               </header>
 
-              {data.educations.map((education) => (
-                <article>
+              {data.educations.map((education, index) => (
+                <article key={index}>
                   <h5>{education.date}</h5>
                   <h4>{education.university}</h4>
                   <h3>{education.degree}</h3>
@@ -78,8 +76,8 @@ const CVPage = () => {
                 <h2>Awards</h2>
               </header>
 
-              {data.awards.map((award) => (
-                <article>
+              {data.awards.map((award, index) => (
+                <article key={index}>
                   <h5>{award.date}</h5>
                   <h4>{award.competition}</h4>
                   <h3>{award.award}</h3>
@@ -173,16 +171,16 @@ const CVPage = () => {
                 <h2>Experience</h2>
               </header>
 
-              {data.experiences.map((xp) => (
-                <article>
+              {data.experiences.map((xp, index) => (
+                <article key={index}>
                   {xp.date && <h5>{xp.date}</h5>}
                   {xp.location && <h4>{xp.location}</h4>}
                   {xp.jobTitle && <h3>{xp.jobTitle}</h3>}
                   {/*{xp.description && <p>{xp.description}</p>}*/}
                   {xp.highlights?.length > 0 && (
                     <ul>
-                      {xp.highlights.map((highlight) => (
-                        <li>{highlight}</li>
+                      {xp.highlights.map((highlight, index) => (
+                        <li key={index}>{highlight}</li>
                       ))}
                     </ul>
                   )}

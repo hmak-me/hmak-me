@@ -63,8 +63,7 @@
       "highlights": [
         "Design iOS UI Based on the Existing Android Application",
         "Develop a Persian Date Range Picker",
-        "Utilize WSDL Services to Communicate with the Existing API",
-        "Implement Push Notification on Both Client and Server using C#"
+        "Utilize WSDL Services to Communicate with the Existing API"
       ]
     },
     {
@@ -97,7 +96,6 @@
         "Implement Load & Balance System Based on AHM-560 Standard",
         "Create Form Scaffolding Structure to Create Complex Nested Forms",
         "Communicate with DCS APIs to Get Flight Schedule",
-        "Generate Standard Printable Reports After Load Sheet Calculation",
         "Generate Real-Time CG Chart from Calculations"
       ]
     },
@@ -109,8 +107,7 @@
       "highlights": [
         "Implement Real-Time using Socket.io",
         "Implement Web Hooks to be Called by External Data Sources",
-        "Sync GraphQL Data with Incoming Socket Data",
-        "Create Platform-Specific User Interfaces"
+        "Sync GraphQL Data with Incoming Socket Data"
       ]
     },
     {

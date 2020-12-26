@@ -60,7 +60,7 @@
             height: 2px
             background: var(--primary-color)
             position: absolute
-            left: 0
+            left: 100%
             bottom: 0
             width: 100vw
 
@@ -91,7 +91,7 @@
           height: 30px
           margin-right: 20px
           margin-left: 1px
-          color: var(--gray6);
+          color: var(--gray6)
 
       article
         display: flex
@@ -114,8 +114,8 @@
         &::after
           content: ''
           display: block
-          width: 2px
-          background: var(--gray2)
+          width: 0
+          border 1px solid var(--gray2)
           border-radius 1px
           position: absolute
           top: 26px
@@ -126,30 +126,30 @@
         &:last-child::after
           display: none
 
-        h5
-          text-transform uppercase
-          letter-spacing 1px
-          font-size: .9em
-          color: var(--gray6)
-          font-weight: 500
+      h5
+        text-transform uppercase
+        letter-spacing 1px
+        font-size: .9em
+        color: var(--gray6)
+        font-weight: 500
 
-        h4
-          font-size: 1em
-          line-height: 1
-          color: var(--gray8)
-          font-weight: 500
+      h4
+        font-size: 1em
+        line-height: 1
+        color: var(--gray8)
+        font-weight: 500
 
-        h3
-          font-size: 1.4em
-          font-weight: 500
+      h3
+        font-size: 1.4em
+        font-weight: 500
 
-        p, ul
-          margin-top: 5px
-          color: var(--gray9)
+      p, ul
+        margin-top: 5px
+        color: var(--gray9)
 
-        ul
-          list-style-type disc
-          padding-left 40px
+      ul
+        list-style-type disc
+        padding-left 40px
 
     > main
       display: flex
@@ -161,11 +161,6 @@
       display: flex
       flex-direction: column
       padding: 40px 20px
-
-      .profile
-        p
-          color: var(--gray9)
-
 
       .contacts, .socials
         .links
@@ -182,3 +177,62 @@
                 height: 18px
                 margin-right: 10px
                 fill: var(--gray-12)
+
+
+@media print
+  body
+    background: none
+    color var(--gray1)
+
+  :global(#gatsby-focus-wrapper)
+    > header
+      display: none !important
+
+  .cvPage
+    .cv
+      grid-template-columns 450px 1fr
+
+      > main, > aside
+        padding-bottom: 0
+
+      .work
+        article
+          &:last-child
+            padding-bottom: 0
+
+      .header
+        .info
+          color var(--gray1)
+
+      section
+        &:not(:first-child)
+          margin-top: 30px
+
+        header
+          h2
+            color var(--gray1)
+            font-size: 1.7em
+
+        article
+          padding-bottom: 30px
+
+          &::after
+            border-color: var(--gray10)
+
+        h5
+          font-size: .75em
+          color: var(--gray6)
+
+        h4
+          font-size: .83em
+          line-height: 1
+          color: var(--gray5)
+
+        h3
+          font-size: 1.17em
+
+        p, ul
+          color: var(--gray4)
+
+@page
+  margin: 10mm
