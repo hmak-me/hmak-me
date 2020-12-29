@@ -1,9 +1,9 @@
 {
   "firstName": "Hossein",
   "lastName": "Maktoobian",
-  "jobTitle": "Back-end Web Developer",
+  "jobTitle": "Back-End Web Developer",
 
-  "profile": "Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment. I've coded in various programming languages but recently chose JS as my speaking language.",
+  "profile": "Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment.",
 
   "contacts": {
     "phone": "+989134625632",
@@ -99,7 +99,7 @@
     {
       "date": "May 2017 - Dec 2017",
       "location": "Royal Club | Isfahan, Iran",
-      "jobTitle": "Back-end Developer",
+      "jobTitle": "Back-End Developer",
       "highlights": [
         "Develop Game Server using Node.js and Socket.io",
         "Handle Groups of Players to Achieve Multiplayer Games",
@@ -110,7 +110,7 @@
     {
       "date": "Dec 2017 - Aug 2018",
       "location": "Kavoshak | Isfahan, Iran",
-      "jobTitle": "Back-end Developer",
+      "jobTitle": "Back-End Developer",
       "highlights": [
         "Create Admin Panel APIs using Laravel",
         "Crawl Prices from Online Shops using a Python Bot",
@@ -121,7 +121,7 @@
     {
       "date": "Dec 2019 - Jul 2020",
       "location": "Kish Airport | Kish, Iran",
-      "jobTitle": "Full-stack Developer",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
         "Create ACL Controlled APIs using Laravel",
         "Implement a Shared CRUD Class to Reduce Duplicate Codes",
@@ -132,7 +132,7 @@
     {
       "date": "Jan 2020 - May 2020",
       "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Full-stack Developer",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
         "Develop a Server-Side Application using Node.js",
         "Utilize REST, GraphQL and Socket.io to Serve Data",
@@ -143,7 +143,7 @@
     {
       "date": "May 2020 - Now",
       "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Team Lead & Full-stack Developer",
+      "jobTitle": "Team Lead & Full-Stack Developer",
       "highlights": [
         "Create a Node.js Back-End Framework using Typescript",
         "Improve GraphQL and Database Performance by Reducing Queries",

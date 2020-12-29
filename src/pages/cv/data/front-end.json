@@ -1,9 +1,9 @@
 {
   "firstName": "Hossein",
   "lastName": "Maktoobian",
-  "jobTitle": "Front-end Web Developer",
+  "jobTitle": "Front-End Web Developer",
 
-  "profile": "Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment. I've coded in various programming languages but recently chose JS as my speaking language.",
+  "profile": "Self taught programmer who is eager to learn more and more everyday. I got engaged with computers when I was 5, and that was the beginning of the love story. Started my web development career in high school (2013) and kept it up until this moment.",
 
   "contacts": {
     "phone": "+989134625632",
@@ -99,7 +99,7 @@
     {
       "date": "Dec 2017 - Aug 2018",
       "location": "Kavoshak | Isfahan, Iran",
-      "jobTitle": "Front-end Developer",
+      "jobTitle": "Front-End Developer",
       "highlights": [
         "Create Complex Custom Form Inputs using Vue Js",
         "Develop an Admin Panel using Vue Js in Laravel",
@@ -109,7 +109,7 @@
     {
       "date": "Jan 2017 - May 2018",
       "location": "Solar Sky | Iceland",
-      "jobTitle": "Front-end Developer",
+      "jobTitle": "Front-End Developer",
       "highlights": [
         "Implement User Interfaces using HTML, SCSS and jQuery",
         "Develop Selectable Custom UI Themes",
@@ -119,7 +119,7 @@
     {
       "date": "Mar 2019 - May 2019",
       "location": "Raadkish | Kish, Iran",
-      "jobTitle": "Front-end Developer",
+      "jobTitle": "Front-End Developer",
       "highlights": [
         "Implement User Interfaces using React JS",
         "Implement Customized UI Kits from Designed Style Guide",
@@ -129,7 +129,7 @@
     {
       "date": "Dec 2019 - Jul 2020",
       "location": "Kish Airport | Kish, Iran",
-      "jobTitle": "Full-stack Developer",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
         "Create Form Scaffolding Structure to Handle Nested Forms",
         "Restrict Access to Features According to ACL Data",
@@ -140,7 +140,7 @@
     {
       "date": "Jan 2020 - May 2020",
       "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Full-stack Developer",
+      "jobTitle": "Full-Stack Developer",
       "highlights": [
         "Design and Implement User Interfaces using React Js ans Stylus",
         "Implement A Real-Time Connection using Socket.io",
@@ -152,7 +152,7 @@
     {
       "date": "May 2020 - Now",
       "location": "Hamresan | Tehran, Iran",
-      "jobTitle": "Team Lead & Full-stack Developer",
+      "jobTitle": "Team Lead & Full-Stack Developer",
       "highlights": [
         "Develop A Full Featured Admin Panel using React Js ans Stylus",
         "Generate Financial and User Behavior Charts and Reports",
