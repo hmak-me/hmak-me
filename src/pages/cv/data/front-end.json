@@ -56,28 +56,24 @@
       "expertise": 4
     },
     {
-      "name": "Vue Js",
-      "expertise": 2
-    },
-    {
       "name": "Canvas",
       "expertise": 4
     },
     {
-      "name": "HTML",
+      "name": "HTML, CSS",
       "expertise": 5
     },
     {
-      "name": "CSS",
+      "name": "GraphQL, REST",
       "expertise": 5
     },
     {
-      "name": "GraphQL",
-      "expertise": 5
+      "name": "Webpack, Babel",
+      "expertise": 3.5
     },
     {
-      "name": "RESTful APIs",
-      "expertise": 5
+      "name": "SEO",
+      "expertise": 3.5
     },
     {
       "name": "VCS",
